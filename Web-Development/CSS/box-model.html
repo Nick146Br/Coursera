@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+</head>
+<style>
+    * { /*Select every element and apply this properties*/
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: gray;
+    }
+    h1{
+        margin-bottom: 30px;
+    }
+    #box {
+        background-color: blue;
+        padding : 10px 10px 10px 10px; /*top rigth bottom left*/
+        border: 5px solid black;
+        margin: 40px;
+        width: 300px;
+        height: 250px;
+        margin-top: 20px; /* wins the greater margins accumulative in vertical */
+        overflow: auto;
+    }
+    #content {
+        background-color: #90EE90;
+    }
+</style>
+<body>
+    <h1>Box Model</h1>
+    <div id="box">
+        <div id="content">
+            Vou-me embora pra Pasárgada<br>
+            Lá sou amigo do rei<br>
+            Lá tenho a mulher que eu quero<br>
+            Na cama que escolherei<br>
+            <br>
+            Vou-me embora pra Pasárgada<br>
+            Aqui eu não sou feliz<br>
+            Lá a existência é uma aventura<br>
+            De tal modo inconsequente<br>
+            Que Joana a Louca de Espanha<br>
+            Rainha e falsa demente<br>
+            Vem a ser contraparente<br>
+            Da nora que nunca tive<br>
+            <br>
+            E como farei ginástica<br>
+            Andarei de bicicleta<br>
+            Montarei em burro brabo<br>
+            Subirei no pau-de-sebo<br>
+            Tomarei banhos de mar!<br>
+            E quando estiver cansado<br>
+            Deito na beira do rio<br>
+            Mando chamar a mãe-d’água<br>
+            Pra me contar as histórias<br>
+            Que no tempo de eu menino<br>
+            Rosa vinha me contar<br>
+            Vou-me embora pra Pasárgada<br>
+            <br>
+            Em Pasárgada tem tudo<br>
+            É outra civilização<br>
+            Tem um processo seguro<br>
+            De impedir a concepção<br>
+            Tem telefone automático<br>
+            Tem alcaloide à vontade<br>
+            Tem prostitutas bonitas<br>
+            Para a gente namorar<br>
+            <br>
+            E quando eu estiver mais triste<br>
+            Mas triste de não ter jeito<br>
+            Quando de noite me der<br>
+            Vontade de me matar<br>
+            — Lá sou amigo do rei —<br>
+            Terei a mulher que eu quero<br>
+            Na cama que escolherei<br>
+            Vou-me embora pra Pasárgada.<br>
+        </div>
+    </div>
+</body>
+</html>
