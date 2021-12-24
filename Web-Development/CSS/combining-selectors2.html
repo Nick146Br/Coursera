@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Selectors</title>
+    <style>
+        /* Turns the text blue for any p inside the div element with class="makeMeBlue" */
+        div.makeMeBlue p {
+            color: blue;
+        }
+        /* turn p direct child for div that is a direct child for div */
+        div > div > p {
+            color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <div>
+            <div class="makeMeBlue">
+            <p>I am feeling blue</p>
+            </div>
+        </div>
+        <section class="makeMeBlue">
+            <p>I just want to be left alone!</p>
+        </section>
+    </div>
+</body>
+
+</html>

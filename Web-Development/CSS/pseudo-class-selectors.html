@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<style>
+    header li, section li{
+        list-style: none;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        background-color: red;
+        border: 1px;
+        color: black;
+        display: block;
+        width: 100px;
+        text-align: center;
+        margin-bottom: 1px;
+    }
+    a:hover, a:active{
+        background-color:blue;
+        color: rgb(255, 255, 255);
+    }
+    header li:nth-child(2){
+        color: rgb(255, 255, 255);
+    }
+    section li:nth-child(even){
+        background-color: grey;
+    }
+    section li:nth-child(odd):hover{
+        background-color: red;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <h1>Pseudo Class Selectors</h1>
+    <header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="http://facebook.com" target="_blank"> Facebook </a></li>
+        </ul>
+        
+    </header>
+    <section>
+        <div>
+            <ul>
+                <li>DIV1</li>
+                <li>DIV2</li>
+                <li>DIV3</li>
+                <li>DIV4</li>
+                <li>DIV5</li>
+                <li>DIV6</li>
+                <li>DIV7</li>
+                <li>DIV8</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
