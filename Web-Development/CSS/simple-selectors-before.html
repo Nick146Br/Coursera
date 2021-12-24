@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Selectors</title>
+    <style>
+        /*  all h2 elements */
+        h2{
+            font-size: 45px;
+            color: #ee0b25;
+        }
+        /* all with class highlight */
+        .highlight {
+            color: black;
+            font-size: 35px;
+            font-weight: bold;
+            font-style: italic;
+            background-color: rgb(0, 250, 96);
+            text-align: justify;
+        }
+        /* all element with id="mainPoint" */
+        #mainPoint { /* Id can Be used in just one point*/
+            font-size: 24px;
+            font-weight: bold;
+            background-color: rgb(255, 0, 179);
+            text-align: justify;
+        }
+        h1 {
+            font-size: 52px;
+            font-weight: bold;
+            color: #141414;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Site With Style</h1>
+    <h2>Subtitle</h2>
+    <p class="highlight">
+        Any text here!
+    </p>
+    <p id="mainPoint">
+        Any text here 2
+    </p>
+</body>
+</html>
