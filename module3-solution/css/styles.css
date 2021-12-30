@@ -11,16 +11,26 @@
     /* font-family: Helvetica; */
 }
 #header-nav {
+    
    background-color: #c2137f;
    border-radius: 0;
+   position: sticky;
    border: 0;
    border: 1px solid black;
    /* border-bottom: 1px #b3006e; */
 }
+
 .navbar{
     margin-bottom: 0px;
 }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+    .col-md-12 {
+        padding: 10px 10px 10px 10px;
+        float: left;
+        width: 100%;
+    }
+}
 #nav-list {
     background-color: white;
     margin-top: 0px;
