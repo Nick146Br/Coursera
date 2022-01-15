@@ -20,3 +20,7 @@ document.addEventListener("DOMContentLoaded", function (event){
         console.log(event.clientX + " " + event.clientY);
     })
 })
+
+
+// document.querySelector("#navbarToggle").addEventListenner("blur")
+// == $.("#navbarToggle").blur(function (event))
